@@ -1,0 +1,73 @@
+/* layout.css — Загальна структура сторінки         */
+/* body |                                           */
+/*      |                                           */
+/*      nav                                         */
+/*      wrapper#top |                               */
+/*                  header.container > .inside      */
+/*                  section#s1.container > .inside  */
+/*                  section#s1.container > .inside  */
+/*                  ***                             */
+/*                  footer.container > .inside      */
+
+
+/* Початок блоку змінних проєкту */
+:root {
+    --bg-color-1:  #fff;  /* Колір фону 1 */
+    --bg-color-2:  #ccc;  /* Колір фону 2 */
+    --bg-nav-1:    #333;  /* Колір фону навігаційної панелі 1 */
+    --bg-nav-2:    #111;  /* Колір фону навігаційної панелі 2 (наприклад після прокрутки) */
+    --lnk-color-1: #333;  /* Загальний колір покликань 1 */
+    --lnk-color-2: #333;  /* Загальний колір покликань 2 (hover) */
+    --txt-color-1: #333;  /* Колір тексту 1 */
+    --txt-color-2: #333;  /* Колір тексту 2 */
+    --nav-color-1: #444;  /* Колір головного меню 1 */
+    --nav-color-2: #111;  /* Колір головного меню 2 (hover) */
+    --nav-color-3: #ccc;  /* Колір головного меню 3 після прокрутки */
+    --nav-color-4: #fff;  /* Колір головного меню 4 (hover) після прокрутки */
+    --max-width:   1280px;  /* Максимальна ширина секцій */
+    --mob-padding: 20px;    /* Горизонтальні внутрішні відступи актуальні для смартфонів */
+    --ver-padding: 50px;    /* Вертикальні внутрішні відступи у секціях */
+    --bord-radius: 20px;    /* Радіус заокруглення кутів */
+    --brg-width:   30px;    /* Ширина бургера */
+    --brg-height:  20px;    /* Висота бургера */
+    --brg-weight:   2px;    /* Товщина ліній бургера */
+    --brg-color-1: #fff;  /* Колір бургера 1 */
+    --brg-color-2: #eee;  /* Колір бургера 2 (hover) */
+    --brg-color-3: #eee;  /* Колір бургера 3 (close) */
+    --logo-width:   160px;  /* Ширина лого */
+    --logo-color-1: #fff; /* Основний колір тексту лого */
+    --logo-color-2: #ccc; /* Другий колір тексту лого напр. (hover) */
+}
+/* Кінець блоку змінних проєкту */
+
+.wrapper {
+    display: flex;
+    flex-direction:column;
+    min-height: 100dvh;
+    margin-left: auto;  /* Центрування блочного елементу по-горизонталі */
+    margin-right: auto; /* Центрування блочного елементу по-горизонталі */
+    padding: 0;         /* Внутнішній відступ для блочного елементу */
+    position: relative;
+}
+
+.container {
+    padding-left: var(--mob-padding);
+    padding-right: var(--mob-padding);
+    min-height: 100dvh;  /* УВАГА!!! Мінімальна висота секцій 100% висоти в'юпорта */
+}
+
+.container > .inside {  /* Direct child .inside in .container */
+    margin: auto;       /* Центрування по-горизонталі */
+    padding-top: var(--ver-padding);
+    padding-bottom: var(--ver-padding);
+    max-width: var(--max-width);
+}
+
+header.container > .inside {  
+    padding-top: 0;
+}
+
+footer {
+    margin-top: auto;
+    min-height: 100px;
+}
