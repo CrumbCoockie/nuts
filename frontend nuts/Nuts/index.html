@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuts</title>
+    
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hero-section.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/about us.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+    <!-- Підключення шрифту -->
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">Nuts</h1>
+            
+            <!-- Бургер-іконка -->
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+            
+            <ul class="nav-list" id="navList">
+                <li class="nav-item"><a href="#s1" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#s2" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#s3" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="#s4" class="nav-link">Mix</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1 -->
+    <section id="s1" class="container">
+        <div class="section-content">
+            <!-- Центрована обгортка для тексту та фото -->
+            <div class="hero-container">
+                <section class="hero">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Pistachios</h1>
+                        <h2 class="hero-secret">A small secret of big energy!</h2>
+                        <p class="hero-subtitle">Looking for the perfect snack for your kids? Our natural pistachios are delicious, healthy and fun!</p>
+                        <p class="hero-tagline"></p>
+                        
+                        <div class="hero-actions">
+                            <button class="btn btn-primary">Buy</button>
+                            <button class="btn btn-secondary">Try mixing</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Фото праворуч -->
+                <div class="section-image">
+                    <img src="img/Group4.png" alt="Pistachios">
+                </div>
+            </div>
+            
+            <!-- Статистика (залишається на своєму місці) -->
+            <section class="stats">
+                <div class="stats-item">
+                    <span class="stats-number">20</span>
+                    <span class="stats-label">commodity positions</span>
+                </div>
+                <div class="stats-item">
+                    <span class="stats-number">1000+</span>
+                    <span class="stats-label">successful sales</span>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="s2" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Menu</h2>
+            
+            <div class="products-slider-container">
+                <div class="products-slider">
+                    <div class="product-container">
+                        
+                        <!-- Картка 1 -->
+                        <div class="product-card">
+                            <img src="img/Pistachios1.png" alt="Product" class="product-image">
+                            <h1>Pistachios</h1>
+                            <p>Are delicious and nutritious nuts with a delicate buttery flavor
+                                and light sweetness.</p>
+                            <div class="price-weight-row">
+                                <div class="weight-controls">
+                                    <button class="weight-btn minus">-</button>
+                                    <span class="weight-value">0.1</span> kg
+                                    <button class="weight-btn plus">+</button>
+                                </div>
+                                <div class="price"><span class="price-value">2</span>$</div>
+                            </div>
+                            <button class="add-to-cart">Buy</button>
+                        </div>
+                    
+                        <!-- Картка 2 -->
+                        <div class="product-card">
+                            <img src="img/Pistachios2.png" alt="Product" class="product-image">
+                            <h1>Pistachios</h1>
+                            <p>Are delicious and nutritious nuts with a delicate buttery flavor
+                                and light sweetness.</p>
+                            <div class="price-weight-row">
+                                <div class="weight-controls">
+                                    <button class="weight-btn minus">-</button>
+                                    <span class="weight-value">0.1</span> kg
+                                    <button class="weight-btn plus">+</button>
+                                </div>
+                                <div class="price"><span class="price-value">2</span>$</div>
+                            </div>
+                            <button class="add-to-cart">Buy</button>
+                        </div>
+                        
+                        <!-- Картка 3 -->
+                        <div class="product-card">
+                            <img src="img/Pistachios3.png" alt="Product" class="product-image">
+                            <h1>Pistachios</h1>
+                            <p>Are delicious and nutritious nuts with a delicate buttery flavor
+                                and light sweetness.</p>
+                            <div class="price-weight-row">
+                                <div class="weight-controls">
+                                    <button class="weight-btn minus">-</button>
+                                    <span class="weight-value">0.1</span> kg
+                                    <button class="weight-btn plus">+</button>
+                                </div>
+                                <div class="price"><span class="price-value">2</span>$</div>
+                            </div>
+                            <button class="add-to-cart">Buy</button>
+                        </div>
+                        
+                        <!-- Картка 4
+                         <div class="product-card">
+                            <img src="img/Pistachios4.png" alt="Product" class="product-image">
+                            <h1>Pistachios</h1>
+                            <p>Are delicious and nutritious nuts with a delicate buttery flavor
+                                and light sweetness.</p>
+                            <div class="price-weight-row">
+                                <div class="weight-controls">
+                                    <button class="weight-btn minus">-</button>
+                                    <span class="weight-value">0.1</span> kg
+                                    <button class="weight-btn plus">+</button>
+                                </div>
+                                <div class="price"><span class="price-value">2</span>$</div>
+                            </div>
+                            <button class="add-to-cart">Buy</button>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- Bullet пагінація -->
+                <div class="slider-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Section 3 -->
+    <section id="s3" class="about-us-section">
+        <div class="container">
+            <h2 class="about-us-title">About Us</h2>
+            <div class="about-us-content">
+                <div class="about-us-text-wrapper">
+                    <p class="about-us-text">
+                        Nuts is your reliable supplier of quality nuts designed for active and caring people. We care about the health of our customers and offer only the best nuts.
+                    </p>
+                    <p class="about-us-text">A small secret of big energy!</p>
+                </div>
+            </div>    
+            <div class="about-us-image">
+                <img src="img/Group3.png" alt="Natural pistachios">
+            </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Footer -->
+    <footer class="nuts-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h2 class="footer-title">Nuts</h2>
+                <div class="footer-text">
+                    <p class="footer-info">Location: Lviv, xxxxx street</p>
+                    <p class="footer-info">Contact: +38xxxxxxxx</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/your-profile" class="social-link" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com" class="social-link" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" alt="Instagram">
+                    </a>
+                    <a href="https://t.me/your-telegram" class="social-link" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968804.png" alt="Telegram">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+   
+    <!-- Script -->
+    <script src="js/nav.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/price.js"></script>
+    <script src="js/script.js"></script>
+      
+</body>
+</html>

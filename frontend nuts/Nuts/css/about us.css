@@ -1,0 +1,61 @@
+#s3 {
+    background-color: #ffffff;
+    padding: 0; /* Додано, щоб уникнути небажаних відступів */
+}
+
+.container {
+    max-width: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-us-title {
+    text-align: left;
+    padding-left: 130px;
+    color: #4B7F2C; /* Зелений колір */
+    margin-bottom: -80px;
+    padding-top: 130px;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 130px;
+    width: 1100px;   
+}
+
+.about-us-text-wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    border-radius: 50px;
+    background-color: #F7EFDE;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.about-us-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F7EFDE;
+    padding-left: 10px;
+   
+}
+
+.about-us-image {
+    flex: 1;
+    text-align: center;
+    margin-top: -260px;
+    margin-left: 950px;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
