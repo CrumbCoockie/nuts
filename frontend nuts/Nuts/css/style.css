@@ -21,6 +21,6 @@ h1, h2, h4, h5, h6 {
     font-family: 'Nova Square', sans-serif;
     font-weight: normal; /* Можна змінити на потрібну товщину */
     color: #4B7F2C;
-    font-size: 72px; 
-    
+    font-size: 3rem; 
+    margin: 0px;
 }

@@ -1,16 +1,17 @@
 #s2 {
     background-color: #ffffff;
     padding: 0; /* Додано, щоб уникнути небажаних відступів */
+    padding-top: 77px;
 }
  
 .section-title {
-    font-size: 72px; /* Великий розмір для акценту */
+    font-size: 3rem; /* Великий розмір для акценту */
     color: #4B7F2C; /* Колір, що відповідає вашій темі */
     text-align: left;
-    padding-left: 100px;
-    margin: 40px 0 30px;
+    margin-bottom: 30px;
     position: relative;
     letter-spacing: 1.5px;
+    padding-left: 68px;
 }
 
 .products-slider-container {
@@ -39,14 +40,12 @@
     overflow: hidden;
     position: relative;
     padding: 20px 0; /* Додано вертикальні відступи */
-    padding-left: 80px;
-
+    padding-left: 64px;
 }
 
 .product-container {
     display: flex;
     gap: 20px;
-    padding: 20px;
     width: max-content; /* Щоб контейнер не переносився */
     transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); /* Плавніша анімація */
     will-change: transform;
@@ -91,7 +90,7 @@
     font-size: 1.0rem;
     line-height: 1.4;
     min-height: 40px;
-    text-align: center;
+    text-align: left;
 }
 
 .price-weight {
@@ -119,7 +118,7 @@
     font-size: 1rem;
     letter-spacing: 1px;
     background-color: #4B7F2C;
-    color: #F7EFDE;
+    color: #FAFDE9;
     width: 100%;
     margin-top: auto; /* Прижимає кнопку до низу картки */
 }
