@@ -1,0 +1,26 @@
+/* Base styles */
+:root {
+    --section-width: auto;
+    --section-height: 1024px;
+    --primary-color: #4B7F2C;
+    --secondary-color: #333;
+    
+}
+
+body {
+    font-family: "Nunito", sans-serif; /* Основний шрифт для всього тексту */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Шрифт для всіх заголовків */
+h1, h2, h4, h5, h6 {
+    font-family: 'Nova Square', sans-serif;
+    font-weight: normal; /* Можна змінити на потрібну товщину */
+    color: #4B7F2C;
+    font-size: 3rem; 
+    margin: 0px;
+}
